@@ -1,0 +1,62 @@
+seller/sa-clean-water?sellers=29825747
+
+https://www.takealot.com/seller/sa-clean-water?sellers=29825747
+
+https://api.takealot.com/rest/v-1-10-0/cms/merchandised-departments?display_only=True
+
+
+https://api.takealot.com/rest/v-1-10-0/sponsored-products/search?platform=desktop&dex=a&uuid=-414697246&filter=Sellers:29825747
+
+https://api.takealot.com/rest/v-1-10-0/searches/products,filters,facets,sort_options,breadcrumbs,
+
+https://api.takealot.com/rest/v-1-10-0/searches/products?Sellers:29825747&filter=Sellers:29825747 
+
+https://api.takealot.com/rest/v-1-10-0/products/LPID53865739/recommendations/platform=desktop&limit=10
+https://api.takealot.com/rest/v-1-10-0/products/LPID53865739/recommendations?platform=desktop&limit=10
+
+Working - https://api.takealot.com/rest/v-1-10-0/searches/products?Sellers:29825747&filter=Sellers:29825747
+Working - https://api.takealot.com/rest/v-1-10-0/product-details/PLID53865739
+
+Working - https://api.takealot.com/rest/v-1-10-0/customers/-414697246/cart
+
+https://api.takealot.com/rest/v-1-10-0/cms/sa-clean-water
+
+https://api.takealot.com/rest/v-1-10-0/cms/sa-clean-water?sellers=29825747
+
+
+https://api.takealot.com/rest/v-1-10-0/customers/-419815014/cart/items
+https://api.takealot.com/rest/v-1-10-0/customers/-419815014/cart/items
+
+
+https://api.takealot.com/rest/v-1-10-0/customers/-419815014/cart/items
+{
+  "id": 82840587,
+  "quantity": 10000
+}
+
+curl "https://api.takealot.com/rest/v-1-10-0/customers/-414697246/cart/items" ^
+  -X "PUT" ^
+  -H "authority: api.takealot.com" ^
+  -H "accept: application/json" ^
+  -H "accept-language: en-US,en;q=0.9,cs;q=0.8,gu;q=0.7" ^
+  -H "cache-control: max-age=0" ^
+  -H "content-type: application/json" ^
+  -H "cookie: shopfrontReturns=True; _gcl_au=1.1.474039182.1648309081; _fbp=fb.1.1648309084273.1798605848; __gads=ID=5ff5c874d7c2555a:T=1648309085:S=ALNI_MbyRhftG8N86Wd_tHSV1XG6DgLnhg; cookieNotice=true; taid=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJ0YWtlYWxvdC5jb20iLCJpYXQiOjE2NDgzMDkxMTAsImV4cCI6MTY1MDkwMTExMCwidHJhY2tpbmdfaWQiOiJmMmViODIyYi1jOTg5LTQ2MGEtYmM0Ny0xMzU1MDk5NTZiOTEiLCJzdWIiOiItNDE0Njk3MjQ2In0.ITH-P9CRI06N7htLADkkvWvQE_CAAnm42mqlq2s_FZOkjO9sbGl_VhyZn-coLLXlrYX3XKAqMGW1NmFRv_DAmj_jgd3HvDyd97RdwAPXODy7D2QSZ69GutWNzLRrf5dFQNO2El99S4rlei1eqvmr3GBUsIUZeZkEZwDp15BM6IpUykvSS30lAIErjKjARb35ofroXv8ApoZW9MxHKAURJGELMXwDId2JRqWuCzWE2usR22XAt0xB53Rlhj3BiNH9aJ16QHCdQbrZtAy-zAjA0oIcNLNW-YC5_Ksz4X21eT-HJ7nGavNMBrodzb4ySxDpYvl7I9Mu4qoXGJp2v-XX-g; _hjSessionUser_2494362=eyJpZCI6ImVjMGYxMmZkLTk4M2QtNTllYi04YTZlLWU2MTIwYjYyNmRkZCIsImNyZWF0ZWQiOjE2NDgzMDkwODQzMzcsImV4aXN0aW5nIjp0cnVlfQ==; _rtbhouse_source_=organic; shopfrontAccountReviews=True; _gaexp=GAX1.2.CukTjYk3Sn21UrXmVP2xnA.19102.1^!ZIbZj90pSDmi-pfR8hEtYg.19126.1^!XCL27GmNSpSv0tDkS78rCw.19162.1; shopfrontPdpCards=True; __gpi=UID=00000427f6a1d1f8:T=1648779931:RT=1648779931:S=ALNI_MadZG6zymH4xK5oM1-axlbuqSfuvQ; cto_bundle=eb4oE19OTE5lNUk0ZXViSFczS0JKQWlQYnlvRW45MTFGMXdmJTJGUUlBS1cyUjhBUTVMVXdRQnJRUVNwRXk0aFpZaW1KcnoxZjdoV0RGY1R5UW5ad3hkcGZmaXhwUXlaNEtqSTB0bko3QUJjNkRGaEczQ2JoWGVmRmJ4VFBTJTJGWlFGU2xRYkRCUWxjUE9pdVdZZjBsdTI2cXJ5aGJ3JTNEJTNE; PHPSESSID=e28746b81ed26a12d61a5ae4fa50056c; _ga=GA1.2.2143487247.1648309082; _gid=GA1.2.1135080601.1648950179; _hjSession_2494362=eyJpZCI6ImQxNmMxZTUwLWZkMzUtNGVmNC1iMjlmLTdhM2Q1MjgzMGIwOSIsImNyZWF0ZWQiOjE2NDg5NTAxNzkyMzMsImluU2FtcGxlIjpmYWxzZX0=; _hjAbsoluteSessionInProgress=0; cebs=1; _ce.s=v~15506b7dbe7a7325a8537b9abc27853637967c12~vpv~3~v11.rlc~1648950180127; _ga_074XF1CBMV=GS1.1.1648950178.8.1.1648950247.60; _gat_UA-288696-18=1" ^
+  -H "origin: https://www.takealot.com" ^
+  -H "referer: https://www.takealot.com/" ^
+  -H "sec-ch-ua: ^\^" Not A;Brand^\^";v=^\^"99^\^", ^\^"Chromium^\^";v=^\^"100^\^", ^\^"Google Chrome^\^";v=^\^"100^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  -H "sec-fetch-dest: empty" ^
+  -H "sec-fetch-mode: cors" ^
+  -H "sec-fetch-site: same-site" ^
+  -H "user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" ^
+  --data-raw "^{^\^"products^\^":^[^{^\^"id^\^":82840587,^\^"quantity^\^":200^}^]^}" ^
+  --compressed
+
+
+curl -d '{"id": "82840587", "quantity": "10000"}' -H "Content-Type: application/json" -X POST https://api.takealot.com/rest/v-1-10-0/customers/-419815014/cart/items
+
+curl -d "{\"id\": \"82840587\", \"quantity\": \"10000\"}" -H "Content-Type: application/json" -X POST "https://api.takealot.com/rest/v-1-10-0/customers/-419815014/cart/items"
+curl -d "{\"id\": \"82840587\", \"quantity\": \"10000\"}" -H "Content-Type: application/json" -X POST "https://api.takealot.com/rest/v-1-10-0/customers/-419815014/cart/items"
+
