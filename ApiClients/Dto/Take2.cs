@@ -27,7 +27,7 @@ public class Delivery_charges
 }
 public class Buybox_summary
 {
-    public int listing_price { get; set; }
+    public double? listing_price { get; set; }
     public string pretty_price { get; set; }
     public string app_pretty_price { get; set; }
     public IList<int> prices { get; set; }
@@ -105,27 +105,14 @@ public class ActionField
     public string action { get; set; }
 
 }
-// public class Products
-// {
-//     public string id { get; set; }
-//     public string name { get; set; }
-//     public IList<undefined> brand { get; set; }
-//     public string category { get; set; }
-//     public IList<undefined> variant { get; set; }
-//     public IList<undefined> dimension1 { get; set; }
-//     public int dimension2 { get; set; }
-//     public int price { get; set; }
-//     public int quantity { get; set; }
-//     public int position { get; set; }
 
-// }
 public class Click
 {
     public ActionField actionField { get; set; }
     public IList<Products> products { get; set; }
 
 }
-public class Ecommerce
+public class Ecommerce1
 {
     public Click click { get; set; }
 
@@ -133,7 +120,7 @@ public class Ecommerce
 public class Enhanced_ecommerce_click
 {
     public string @event { get; set; }
-    public Ecommerce ecommerce { get; set; }
+    public Ecommerce1 ecommerce { get; set; }
     public string eventCallback { get; set; }
 
 }
@@ -151,7 +138,7 @@ public class Impressions
     public int price { get; set; }
 
 }
-public class Ecommerce
+public class Ecommerce2
 {
     public string currencyCode { get; set; }
     public IList<Impressions> impressions { get; set; }
@@ -160,7 +147,7 @@ public class Ecommerce
 public class Enhanced_ecommerce_impression
 {
     public string @event { get; set; }
-    public Ecommerce ecommerce { get; set; }
+    public Ecommerce2 ecommerce { get; set; }
 
 }
 public class Promotions_summary
@@ -236,7 +223,7 @@ public class Paging
     public bool is_approximate { get; set; }
 
 }
-public class Products
+public class Products1
 {
     public string name { get; set; }
     public string id { get; set; }
@@ -248,7 +235,7 @@ public class Products
 }
 public class Sections
 {
-    public Products products { get; set; }
+    public Products1 products { get; set; }
 
 }
 public class Filters
@@ -273,7 +260,7 @@ public class Search_request
     public IList<string> experiment { get; set; }
 
 }
-public class Application
+public class SellerProductDto
 {
     public Sections sections { get; set; }
     public IList<string> section_keys { get; set; }
