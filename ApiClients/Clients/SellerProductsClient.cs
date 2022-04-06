@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace InventoryScrapperTAL
 {
-    class GetProducts
+    class SellerProductsClient
     {
 
         public async Task<SellerProductDto> GetProductListAsync()
