@@ -32,23 +32,29 @@ namespace InventoryScrapperTAL
                     cookieDictionary.Add(cookie.Name, cookie.Value);
                 }
 
-                string postPayload = "{\"products\":[{\"id\":73795251,\"quantity\":2000}]}";
+                //string postPayload = "{\"products\":[{\"id\":73795251,\"quantity\":2000}]}";
 
 
                 var gg = new CartItemClient().SetCartItemAsync(cookieDictionary, 123).GetAwaiter().GetResult();
+
+                Console.WriteLine("Here is the cookie content:");
+                Console.WriteLine(cookies);
+
+
                 SellerProductDto result = new SellerProductsClient().GetProductListAsync().GetAwaiter().GetResult();
                 foreach (var product in result.sections.products.results)
                 {
                     productIds.Add(product.product_views.core.id);
                 }
-                Console.WriteLine("Here is the cookie content:");
-                Console.WriteLine(cookies);
+
             }
             catch (Exception ex)
             {
                 driver.Close();
                 driver.Quit();
             }
+            driver.Close();
+            driver.Quit();
         }
     }
 }

@@ -6,7 +6,7 @@ public class MyProduct
         public int quantity { get; set; }
     }
 
-    public class Root
+    public class CartPostDto
     {
         public List<MyProduct> products { get; set; }
     }
